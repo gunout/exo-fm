@@ -14,7 +14,7 @@
             background-image: url('https://github.com/gunout/exo-fm/blob/main/background.jpg?raw=true'); /* Remplacez par l'URL de votre image */
             background-size: cover; /* Couvre tout l'écran */
             background-position: center; /* Centre l'image */
-            color: #ffffff;
+            color: #fff0;
             font-family: 'Courier New', Courier, monospace;
             overflow: hidden;
         }
@@ -23,11 +23,11 @@
             background: rgba(20, 20, 20, 0.0); /* Rendre le fond plus translucide */
             border-radius: 15px;
             padding: 20px;
-            box-shadow: 0 4px 30px rgba(255, 94, 0, 0.5); /* Ombre de texte en orange fluo */
-            backdrop-filter: blur(20px);
+            box-shadow: 0 0 20px rgba(255, 94, 0, 0.5); /* Ombre de texte en orange fluo */
+            backdrop-filter: ;
             text-align: center;
             width: 350px;
-            border: 2px solid #FF5E00; /* Bordure orange fluo */
+            border: 1px solid #FF5E00; /* Bordure orange fluo */
         }
 
         h1 {
@@ -68,24 +68,24 @@
         .cover img {
             max-width: 100%;
             border-radius: 10px;
-            border: 2px solid #FF5E00; /* Bordure de l'image en orange fluo */
+            border: 1px solid #FF5E00; /* Bordure de l'image en orange fluo */
             /* Effet glow et pulse orange fluo */
-            box-shadow: 0 0 20px #FF5E00, 0 0 40px #FF5E00, 0 0 60px #FF5E00;
+            box-shadow: 0 0 20px #FF5E00, 0 0 20px #FF5E00, 0 0 20px #FF5E00;
             animation: pulse 2s infinite alternate;
         }
 
         /* Animation de pulsation pour le logo */
         @keyframes pulse {
             0% {
-                box-shadow: 0 0 20px #FF5E00, 0 0 40px #FF5E00, 0 0 60px #FF5E00;
+                box-shadow: 0 0 20px #FF5E00, 0 0 20px #FF5E00, 0 0 30px #FF5E00;
                 transform: scale(1);
             }
             50% {
-                box-shadow: 0 0 30px #FF5E00, 0 0 50px #FF5E00, 0 0 70px #FF5E00;
+                box-shadow: 0 0 20px #FF5E00, 0 0 20px #FF5E00, 0 0 35px #FF5E00;
                 transform: scale(1.02);
             }
             100% {
-                box-shadow: 0 0 40px #FF5E00, 0 0 60px #FF5E00, 0 0 80px #FF5E00;
+                box-shadow: 0 0 20px #FF5E00, 0 0 20px #FF5E00, 0 0 40px #FF5E00;
                 transform: scale(1.05);
             }
         }
