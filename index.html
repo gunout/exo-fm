@@ -69,6 +69,25 @@
             max-width: 100%;
             border-radius: 10px;
             border: 2px solid #FF5E00; /* Bordure de l'image en orange fluo */
+            /* Effet glow et pulse orange fluo */
+            box-shadow: 0 0 20px #FF5E00, 0 0 40px #FF5E00, 0 0 60px #FF5E00;
+            animation: pulse 2s infinite alternate;
+        }
+
+        /* Animation de pulsation pour le logo */
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 20px #FF5E00, 0 0 40px #FF5E00, 0 0 60px #FF5E00;
+                transform: scale(1);
+            }
+            50% {
+                box-shadow: 0 0 30px #FF5E00, 0 0 50px #FF5E00, 0 0 70px #FF5E00;
+                transform: scale(1.02);
+            }
+            100% {
+                box-shadow: 0 0 40px #FF5E00, 0 0 60px #FF5E00, 0 0 80px #FF5E00;
+                transform: scale(1.05);
+            }
         }
     </style>
 </head>
@@ -129,4 +148,3 @@
     </script>
 </body>
 </html>
-
